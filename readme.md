@@ -22,7 +22,7 @@ GitGazer is a web application that retrieves information about a GitHub user usi
 
 ## Demo
 
-Check out the [GitGazer demo](https://your-demo-link.com) to see the project in action.
+Check out the [GitGazer demo](https://adityaa2509.github.io/GitGazer/) to see the project in action.
 
 ## How to Use
 
