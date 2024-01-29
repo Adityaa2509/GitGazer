@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://qph.cf2.quoracdn.net/main-qimg-729a22aba98d1235fdce4883accaf81e" type="image/x-icon">
+    <link id="theme-style" rel="stylesheet" href="./StyleSheets/light-theme.css">
+    <title>GitHub Profile Search</title>
+</head>
+<body>
+    <div class="container">
+        <div class="upper">
+            <h1 class="heading">GitGazer</h1>
+            <img src="./images/darkbulb.png" alt="dark-bulb" width="50px" class="bulb">
+        </div>
+        
+        <div id="err-msg" class="dp">no search results</div>
+        <div id="cross" class="dp">✖</div>
+        <div class="search-bar">
+            <div class="search-icon">⌕</div>
+            <input type="text" name="search" id="search" placeholder="Enter a Github username...">
+            
+            <div class="search-btn">Search</div>
+        </div>
+        <div class="profile">
+            <div class="upper-part">
+                <div class="avatar"><img src="./images/avatar.jpeg" alt="" srcset="" class="avatar" id="imgavatar"></div>
+                <div class="basic-info">
+                    <div class="name">Aditya Kuntal</div>
+                    <div class="lk"><a href="https://github.com/Adityaa2509" class="link">@Adityaa2509</a></div>
+                    <div class="desc">
+                        I'm Aditya Kuntal, a MERN stack enthusiast mastering both frontend and backend. Containerization and CI/CD aficionado. Passionate about crafting scalable solutions with a keen eye for innovation.
+                    </div>
+                </div>
+                <div class="joined-date">Joined 05 May 2021</div>
+            </div>
+            <div class="lower-part">
+                <div class="rfl">
+                    <div class="repos">
+                        <p class="sm">Repos</p>
+                        <p class="repos-data" id="ms">31</p>
+                    </div>
+                    <div class="followers">
+                        <p class="sm">Followers</p>
+                        <div class="followers-data" id="ms">1</div>
+                    </div>
+                    <div class="following">
+                        <div class="sm">Following</div>
+                        <div class="following-data" id="ms">0</div>
+                    </div>
+                </div>
+                <div class="lower-lower-part">
+                    <div class="lt">
+                    <img src="./images/location.png" alt="" id="im">
+                    <span class="location" id="mg">Mathura,Uttar Pradesh</span>
+                </div>
+                <div class="rt">
+                    <span id="mg"><img src="./images/tweet.png" alt="" srcset="" id="im">
+                    </span>
+                    <a href="https://aditya25009" class="tweet" id="mg">aditya2509tweet</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

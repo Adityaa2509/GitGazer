@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+background-color: aliceblue;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;    
+align-items: center;
+}
+.heading{
+    margin-top: 30px;
+    margin-left: -475px;
+    margin-bottom: 25px;
+}
+.search-bar{
+    display: flex;
+    background-color: white;
+    position: relative;
+    width: 730px;
+    height: 30px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45);
+}
+.search-icon{
+    font-size: 40px;
+    margin-top: -16px;
+    padding-right: 40px;
+    background-color: white;
+    color: #2887c8;
+}
+#search{
+    border: none;
+    outline: none;
+    background-color: white;
+    width: 400px;
+    font-size: 19px;
+}
+.search-btn{
+    margin-top: -15px;
+    background-color: #0079ff;
+    width: 120px;
+    height: 42px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    margin-left: 300px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    padding-left: 20px;
+    padding-top: 18px;
+}
+.search-btn:hover{
+cursor: pointer;
+background-color: #60abff;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45);
+    width: 730px;   
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.upper-part{
+  
+    background-color: white;
+    display: flex;
+    gap: 45px;
+    border-radius: 20px;
+}
+.avatar{
+    background-color: white;
+    border-radius: 100%;
+    width: 130px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+.basic-info{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+}
+.joined-date{
+   
+    background-color: white;
+      color: gray;
+    font-size: 15px;
+    margin-top: 16px;
+}
+.name{
+    background-color: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+.link
+{
+    background-color: white;
+    font-size: 16px;
+    color: darkblue;
+}
+.lk{
+    background-color: white;
+    font-size: 16px;
+    color: darkblue;
+}
+.desc{
+    margin-top: 15px;
+    background-color: white;
+    font-size: 17px;
+    color: gray;
+    width: 300px;
+}
+.lower-part{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+border-radius: 20px;
+
+}
+.rfl{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 100px;
+    background-color: white;
+    padding-left: 190px;
+}
+.sm{
+    background-color: white;
+    font-size: 15px;
+    font-weight: 600;
+    color: #001F3F;
+}
+#ms{
+    
+    background-color: white;
+    font-size: 32px;
+    color: black;
+    font-weight: bolder;
+}
+.lower-lower-part{
+    display: flex;
+    background-color: white;
+border-radius: 20px;
+margin-bottom: 30px;
+}
+#im{
+    width: 20px;
+background-color: white;
+margin-left: 160px;
+margin-right: 10px;
+}
+#mg{
+    background-color: white;
+    color: gray;
+    font-size: 15px;
+    }
+.lt{
+background-color: white;
+
+}
+.rt{
+background-color: white;
+}
+.tweet{
+    background-color: white;
+text-decoration: none;
+}
+
+#cross{
+    color: black;
+    font-size: 25px;
+    background-color: transparent;
+    font-weight: 900;
+    padding-left: 420px;
+    position: absolute;
+    top: 128px;    
+    z-index: 190;
+}
+#cross:hover{
+    cursor: pointer;
+}
+#err-msg{
+    color: darkred;
+    font-size: 16px;
+    background-color: transparent;
+    font-weight: 900;
+    padding-left: 350px;
+    position: absolute;
+    top: 135px;
+    
+    z-index: 190;
+}
+.dp{
+    display: none;
+}
+.upper{
+    display: flex;
+justify-content: center;
+gap: 300px;
+margin-left: 460px;
+}
+.bulb{
+    padding-top: 37px;
+    margin-left: 100px;
+    height: 50px;   
+}
+.bulb:hover{
+    cursor: pointer;
+    }
