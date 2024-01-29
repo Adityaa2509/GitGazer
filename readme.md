@@ -1,4 +1,4 @@
-# GitHub User Info Finder
+# GitGazer :- A GitHub User Info Finder
 
 ![GitGazer Light Mode](./images/img-light-mode.jpg)
 ![GitGazer Dark Mode](./images/img-dark-mode.jpg)
